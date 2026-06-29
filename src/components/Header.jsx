@@ -2,10 +2,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center py-5">
+    <header className="bg-[#d9faff]">
+      <div className="w-315 mx-auto px-2 flex justify-between items-center py-5">
       <a href="" className="text-[38px] font-semibold">
         <span className="">Easy</span>
-        <span className="">Eats</span>
+        <span className="text-[#16ab88]">Eats</span>
       </a>
       <nav>
         <ul className="flex flex-row gap-8">
@@ -35,6 +36,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      </div>
     </header>
   );
 };

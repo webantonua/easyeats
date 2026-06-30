@@ -1,1 +1,96 @@
 @import "tailwindcss";
+
+:root {
+  --accent-bg-color: #d9faff;
+  --accent-select-color: #16ab88;
+  --accent-bg-light-color: #eef7fb;
+  --white-color: #ffffff;
+  --title-color: #161b20;
+  --text-color: #666666;
+  --text-input-color: #b3b3b3 ;
+  --orange-color: #fca401;
+  --card-circle-color: #e7e7e7;
+}
+
+/* Urbanist — основний шрифт сайту */
+@font-face {
+  font-family: "Urbanist";
+  src: url("/fonts/urbanist/urbanist-variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Urbanist";
+  src: url("/fonts/urbanist/urbanist-italic-variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Poppins — UI, кнопки, бейджі */
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/poppins/poppins-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/poppins/poppins-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/poppins/poppins-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/poppins/poppins-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Gilroy — тільки акцентні заголовки */
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/gilroy/gilroy-light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/gilroy/gilroy-extrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "Urbanist", system-ui, sans-serif;
+  --font-urbanist: "Urbanist", system-ui, sans-serif;
+  --font-poppins: "Poppins", system-ui, sans-serif;
+  --font-gilroy: "Gilroy", "Urbanist", system-ui, sans-serif;
+  --breakpoint-xl: 1260px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}

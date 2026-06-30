@@ -7,7 +7,7 @@
   --white-color: #ffffff;
   --title-color: #161b20;
   --text-color: #666666;
-  --text-input-color: #b3b3b3 ;
+  --text-input-color: #b3b3b3;
   --orange-color: #fca401;
   --card-circle-color: #e7e7e7;
 }
@@ -84,7 +84,7 @@
   --font-urbanist: "Urbanist", system-ui, sans-serif;
   --font-poppins: "Poppins", system-ui, sans-serif;
   --font-gilroy: "Gilroy", "Urbanist", system-ui, sans-serif;
-  --breakpoint-xl: 1260px;
+  --breakpoint-xl: 1247px;
 }
 
 html {

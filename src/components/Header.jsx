@@ -3,13 +3,13 @@ import React from "react";
 const Header = () => {
   return (
     <header className="bg-[#d9faff]">
-      <div className="w-315 mx-auto px-2 flex justify-between items-center py-5">
+      <div className="mx-auto flex w-full max-w-[1247px] items-center justify-between gap-12 px-4 sm:px-6 lg:px-8 flex-row">
       <a href="" className="text-[38px] font-semibold">
         <span className="">Easy</span>
         <span className="text-[#16ab88]">Eats</span>
       </a>
       <nav>
-        <ul className="flex flex-row gap-8">
+        <ul className="flex-row gap-8 hidden sm:flex">
           <li className="">
             <a href="#home" className="text-[16px] font-semibold leading-6">
               Home
@@ -35,6 +35,7 @@ const Header = () => {
             </button>
           </li>
         </ul>
+        <button className="flex sm:hidden">Burger</button>
       </nav>
       </div>
     </header>

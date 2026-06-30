@@ -10,18 +10,6 @@ const cards = [
     title: "Groceries Fruits",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
   },
-  {
-    title: "Fresh Products",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
-  },
-  {
-    title: "Fresh Products",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
-  },
-  {
-    title: "Fresh Products",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
-  },
 ];
 
 const Hero = () => {
@@ -119,7 +107,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="w-full overflow-visible">
-          <div className="w-full overflow-visible md:mx-auto md:max-w-[650px] xl:-mr-16">
+          <div className="w-full overflow-visible md:mx-auto md:max-w-[650px]">
             <div
               ref={sliderRef}
               onScroll={handleMobileScroll}
@@ -127,7 +115,7 @@ const Hero = () => {
             >
               <div
                 className={cn(
-                  "pointer-events-none absolute left-0 top-0 z-20 hidden h-full w-24 md:block",
+                  "pointer-events-none absolute left-0 top-0 z-20 hidden h-full w-10 md:block",
                   "bg-linear-to-r from-(--accent-bg-color) to-transparent transition-opacity duration-300",
                   activeCard > 0 ? "opacity-100" : "opacity-0",
                 )}
@@ -202,7 +190,7 @@ const Hero = () => {
 
               <div
                 className={cn(
-                  "pointer-events-none absolute right-0 top-0 z-20 hidden h-full w-24 md:block",
+                  "pointer-events-none absolute right-0 top-0 z-20 hidden h-full w-10 md:block",
                   "bg-linear-to-l from-(--accent-bg-color) to-transparent transition-opacity duration-500",
                   activeCard < cards.length - 1 ? "opacity-100" : "opacity-0",
                 )}

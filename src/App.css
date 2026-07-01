@@ -14,7 +14,7 @@
 
 
 @utility site-container {
-  @apply w-full max-w-[1247px] mx-auto px-4 sm:px-6 lg:px-8;
+  @apply w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8;
 }
 
 /* Urbanist — основний шрифт сайту */

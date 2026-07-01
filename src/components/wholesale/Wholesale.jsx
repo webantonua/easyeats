@@ -20,7 +20,7 @@ const customers = [
   },
 ];
 
-const Wholesale = () => {
+const Wholesale = ({className}) => {
   const [cards, setCards] = useState([
     {
       id: 1,
@@ -44,7 +44,7 @@ const Wholesale = () => {
 
   return (
     <section className="bg-(--accent-bg-light-color) pt-40 pb-51.75">
-      <div className="site-container flex flex-col justify-between xl:flex-row items-center gap-20 xl:gap-0 xl:items-start">
+      <div className={cn(className, "site-container flex flex-col justify-between xl:flex-row items-center gap-20 xl:gap-0 xl:items-start")}>
         <div className="flex flex-col gap-14 w-full max-xl:max-w-200 xl:max-w-165 py-10 md:py-14 px-6 md:px-12 bg-(--white-color) rounded-3xl">
           <div className="space-y-6">
             <h2 className="font-urbanist text-[44px] sm:text-[56px] md:text-[64px] xl:text-[80px] font-semibold leading-tight md:leading-[135%] text-[#161b20] w-full">

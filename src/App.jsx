@@ -4,15 +4,17 @@ import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Whosale from "./components/wholesale/Wholesale";
 import Services from "./components/services/Services";
+import Featured from "./components/featured/Featured";
 
 const App = () => {
   return (
     <div className="">
-      <Header />
+      <Header className="site-container"  />
       <main>
-        <Hero />
-        <Whosale />
-        <Services />
+        <Hero className="site-container" />
+        <Whosale className="site-container" />
+        <Services className="site-container" />
+        <Featured className="site-container" />
       </main>
     </div>
   );

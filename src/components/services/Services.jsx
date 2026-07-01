@@ -1,5 +1,6 @@
 import React from "react";
 import ServicesCards from "./ServicesCards";
+import { cn } from "../../utils/cn";
 
 const cards = [
   {
@@ -28,10 +29,10 @@ const cards = [
   },
 ];
 
-const Services = () => {
+const Services = ({className}) => {
   return (
     <section className="py-40">
-      <div className="site-container flex flex-col items-center gap-20">
+      <div className={cn(className, "site-container flex flex-col items-center gap-20")}>
         <div className="text-center flex flex-col gap-6 items-center">
           <h2 className="w-full max-w-[825px] font-urbanist text-[44px] sm:text-[56px] md:text-[64px] xl:text-[67px] font-semibold leading-tight md:leading-[135%] text-[#161b20]">
             The Bulk

@@ -1,9 +1,10 @@
 import React from "react";
+import { cn } from "../../utils/cn";
 
-const Header = () => {
+const Header = ({className}) => {
   return (
     <header className="bg-[#d9faff]">
-      <div className="site-container flex items-center justify-between gap-12 flex-row">
+      <div className={cn(className, "flex items-center justify-between gap-12 flex-row")}>
       <a href="" className="text-[38px] font-semibold">
         <span className="">Easy</span>
         <span className="text-[#16ab88]">Eats</span>

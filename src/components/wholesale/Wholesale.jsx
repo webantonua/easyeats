@@ -44,10 +44,10 @@ const Wholesale = () => {
 
   return (
     <section className="bg-(--accent-bg-light-color) pt-40 pb-51.75">
-      <div className="mx-auto flex w-full max-w-[1247px] flex-col justify-between px-4 sm:px-6 lg:px-8 xl:flex-row items-center gap-20 xl:gap-0 xl:items-start">
+      <div className="site-container flex flex-col justify-between xl:flex-row items-center gap-20 xl:gap-0 xl:items-start">
         <div className="flex flex-col gap-14 w-full max-xl:max-w-200 xl:max-w-165 py-10 md:py-14 px-6 md:px-12 bg-(--white-color) rounded-3xl">
           <div className="space-y-6">
-            <h2 className="font-urbanist text-[44px] sm:text-[56px] md:text-[64px] xl:text-[80px] font-bold leading-tight md:leading-[135%] text-[#161b20] w-full">
+            <h2 className="font-urbanist text-[44px] sm:text-[56px] md:text-[64px] xl:text-[80px] font-semibold leading-tight md:leading-[135%] text-[#161b20] w-full">
               Finest
               <span className="relative inline-flex z-10 mx-4">
                 <div className="absolute rotate-[1.5deg] inset-0 bg-black rounded-2xl -z-10 transform -inset-x-2.5" />
@@ -70,11 +70,11 @@ const Wholesale = () => {
             alt="supermarket"
             className="w-full rounded-3xl object-cover"
           />
-          <div className="absolute -bottom-11.75 left-1/2 transform -translate-x-1/2 md:p-10 p-6 bg-(--white-color) rounded-3xl z-10 w-full max-w-60 md:max-w-85.75">
+          <div className="absolute -bottom-25 left-1/2 transform -translate-x-1/2 md:p-10 p-6 bg-(--white-color) rounded-3xl z-10 w-full max-w-60 md:max-w-85.75">
             <h4 className="font-urbanist font-semibold w-40 text-[19px] md:w-60 text-center md:text-[21px] leading-6 mx-auto">
               How many current customers sign up
             </h4>
-            <ul className="relative mt-5 flex items-center justify-center -space-x-5.25 h-[60px] md:h-[79px]">
+            <ul className="relative mt-4 flex items-center justify-center -space-x-5.25 h-[60px] md:h-[79px]">
               {customers.map((customer, index) => (
                 <li
                   key={customer.id}

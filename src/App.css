@@ -12,6 +12,11 @@
   --card-circle-color: #e7e7e7;
 }
 
+
+@utility site-container {
+  @apply w-full max-w-[1247px] mx-auto px-4 sm:px-6 lg:px-8;
+}
+
 /* Urbanist — основний шрифт сайту */
 @font-face {
   font-family: "Urbanist";
@@ -84,7 +89,7 @@
   --font-urbanist: "Urbanist", system-ui, sans-serif;
   --font-poppins: "Poppins", system-ui, sans-serif;
   --font-gilroy: "Gilroy", "Urbanist", system-ui, sans-serif;
-  --breakpoint-xl: 1247px;
+  --breakpoint-xl: 77.9375rem;
 }
 
 html {

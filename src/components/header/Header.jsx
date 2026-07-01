@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header className="bg-[#d9faff]">
-      <div className="mx-auto flex w-full max-w-[1247px] items-center justify-between gap-12 px-4 sm:px-6 lg:px-8 flex-row">
+      <div className="site-container flex items-center justify-between gap-12 flex-row">
       <a href="" className="text-[38px] font-semibold">
         <span className="">Easy</span>
         <span className="text-[#16ab88]">Eats</span>

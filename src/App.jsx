@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header";
+import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Whosale from "./components/wholesale/Wholesale";
+import Services from "./components/services/Services";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <main>
         <Hero />
         <Whosale />
+        <Services />
       </main>
     </div>
   );

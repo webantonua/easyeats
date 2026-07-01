@@ -10,6 +10,70 @@ const cards = [
     title: "Groceries Fruits",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
   },
+  {
+    title: "Groceries Vegetables",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Fruits",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Vegetables",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Fruits",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Vegetables",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Fruits",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Vegetables",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Fruits",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Vegetables",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Fruits",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Vegetables",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Fruits",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Vegetables",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Fruits",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Vegetables",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
+  {
+    title: "Groceries Fruits",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, velit.",
+  },
 ];
 
 const Hero = () => {
@@ -84,7 +148,7 @@ const Hero = () => {
 
   return (
     <section className="overflow-hidden bg-(--accent-bg-color) pt-20 pb-20 md:pt-24 md:pb-28 xl:pt-28 xl:pb-61.75">
-      <div className="mx-auto flex w-full max-w-[1247px] flex-col items-center justify-between gap-12 px-4 sm:px-6 lg:px-8 xl:flex-row">
+      <div className="site-container flex flex-col items-center justify-between gap-12 xl:flex-row">
         <div className="flex w-full max-w-[643px] flex-col gap-6">
           <h2 className="font-urbanist text-[44px] sm:text-[56px] md:text-[64px] xl:text-[80px] font-bold leading-tight md:leading-[135%] text-[#161b20] w-full">
             Enjoy the Results

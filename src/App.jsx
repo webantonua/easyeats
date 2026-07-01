@@ -5,6 +5,7 @@ import Hero from "./components/hero/Hero";
 import Whosale from "./components/wholesale/Wholesale";
 import Services from "./components/services/Services";
 import Featured from "./components/featured/Featured";
+import Goals from "./components/goals/Goals";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Whosale className="site-container" />
         <Services className="site-container" />
         <Featured className="site-container" />
+        <Goals className="site-container" />
       </main>
     </div>
   );
